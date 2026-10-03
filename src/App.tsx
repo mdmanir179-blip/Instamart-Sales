@@ -394,7 +394,7 @@ export default function App() {
             </div>
             
             <h2 className="text-2xl font-black text-slate-900 dark:text-white mb-2">
-              Welcome to IM02 Analytics
+              Welcome to TBC analysis
             </h2>
             <p className="text-sm text-slate-500 dark:text-slate-400 max-w-lg mx-auto mb-6">
               Upload your sales report Excel file (.xlsx, .xls) or CSV to instantly generate Sales Velocity, Brand Intelligence, ROAS, and PDF reporting.
@@ -487,7 +487,7 @@ export default function App() {
       {/* Footer */}
       <footer className="mt-auto py-5 border-t border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 text-center text-xs text-slate-400 transition-colors">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span className="font-semibold text-slate-600 dark:text-slate-400">IM02 • Enterprise Sales &amp; Brand Analytics Suite</span>
+          <span className="font-semibold text-slate-600 dark:text-slate-400">TBC analysis • Enterprise Sales &amp; Brand Analytics Suite</span>
           <span>Reporter Author: <strong className="text-slate-700 dark:text-slate-200 font-bold">{userEmail}</strong></span>
         </div>
       </footer>

@@ -32,7 +32,7 @@ export function generatePdfReport(options: GeneratePdfOptions) {
   doc.setTextColor(255, 255, 255);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(22);
-  doc.text('IM02 ANALYTICS SUITE', 40, 42);
+  doc.text('TBC ANALYSIS', 40, 42);
 
   doc.setFontSize(11);
   doc.setFont('helvetica', 'normal');
@@ -181,11 +181,11 @@ export function generatePdfReport(options: GeneratePdfOptions) {
     doc.setPage(i);
     doc.setFontSize(8);
     doc.setTextColor(148, 163, 184);
-    doc.text(`IM02 Analytics Platform | Confidential Sales Report | Reporter: ${userEmail || 'mdmanir179@gmail.com'}`, 40, 820);
+    doc.text(`TBC Analysis | Confidential Sales & Brand Report | Reporter: ${userEmail || 'mdmanir179@gmail.com'}`, 40, 820);
     doc.text(`Page ${i} of ${pageCount}`, 520, 820);
   }
 
   // Trigger download
   const dateTag = new Date().toISOString().split('T')[0];
-  doc.save(`IM02_Sales_Report_${dateTag}.pdf`);
+  doc.save(`TBC_Analysis_Report_${dateTag}.pdf`);
 }

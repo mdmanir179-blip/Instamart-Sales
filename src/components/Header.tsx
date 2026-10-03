@@ -117,13 +117,13 @@ export const Header: React.FC<HeaderProps> = ({
           
           {/* Brand Logo & Name */}
           <div className="flex items-center gap-3.5">
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-violet-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/25 text-white font-black text-lg tracking-wider">
-              IM02
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-violet-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-500/25 text-white font-black text-sm tracking-wider">
+              TBC
             </div>
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white">
-                  IM02
+                  TBC analysis
                 </span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800">
                   Live Analytics
